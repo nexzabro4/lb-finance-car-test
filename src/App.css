@@ -13,6 +13,18 @@ body {
     background-repeat: no-repeat;
     background-position: center;
   }
+  .form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: red;
+    opacity: 0.8;
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 1;
+
+  }
 }
 
 /* Background image for devices with a minimum width of 481px */
@@ -23,19 +35,23 @@ body {
     background-repeat: no-repeat;
     background-position: center;
   }
+  .form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: red;
+    opacity: 0.8;
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 1;
+    width: 600px;
+    height: 220px;
+  }
+  
 }
 
 /* Other styles for your form */
-.form {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: red;
-  padding: 20px;
-  border-radius: 10px;
-  z-index: 1;
-}
 
 /* Additional styles for your form elements */
 .form h2 {
