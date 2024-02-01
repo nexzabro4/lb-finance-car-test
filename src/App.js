@@ -85,7 +85,7 @@ function App() {
   return (
     <div className="app">
       <form className="form"onSubmit={handleSubmit}>
-        <h2>වැඩි විස්තර දැනගැනීම සඳහා පහත තොරතුරු ලබා දෙන්න</h2>
+        <h2 className='text-center'>වැඩි විස්තර දැනගැනීම සඳහා පහත තොරතුරු ලබා දෙන්න</h2>
         <div>
             <label className="text-white block">Mobile Number</label>
             <input
